@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../images/pattern-with-spiration.png");
+}
+
+body, figure{
+  margin: 0px;
+}
+
+.sidebar{
+  background-color: white;
+  width: 243px;
+  height: 100vh;
+  box-shadow: 1px 0px #6c2c2c;
+}
+
+#logo{
+  display: block;
+  width: 80%;
+  margin: 0vh auto;
+  padding: 8vh 0vw;
+}
+
+.location{
+  background-color: black;
+  height: 20%;
+}
