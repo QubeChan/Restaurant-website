@@ -1,5 +1,8 @@
 *{
-  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #6c2c2c;
+  /* testing the borders to see box sizes */
+  /* border: 1px solid black; */
 }
 
 body{
@@ -21,10 +24,36 @@ body, figure{
   display: block;
   width: 80%;
   margin: 0vh auto;
-  padding: 8vh 0vw;
+  /* padding: 8vh 0vw; */
+  padding: 8vh 0vw 6vh 0vw;
 }
 
 .location{
-  background-color: black;
-  height: 20%;
+  display: block;
+  padding: 0 1.875rem;
+  margin: 1rem 0rem;
+  letter-spacing: 0.05rem;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.hours{
+  margin: 2rem 0rem;
+}
+
+.location, .hours{
+  text-align: center;
+  word-spacing: 0.1rem;
+  line-height: 1.5;
+  opacity: 75%;
+  /* font-weight: bold; */
+}
+
+.hours p{
+  border: 1px solid #6c2c2c;
+  padding: 3px;
+  margin: 3rem 5rem 0.5rem;
+  background-color:rgba(151,115,65,0.65);
+  color: wheat;
+  border-radius: 2px;
 }
