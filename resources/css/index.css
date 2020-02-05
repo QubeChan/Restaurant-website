@@ -9,42 +9,38 @@ body{
   background-image: url("../images/pattern-with-spiration.png");
 }
 
-body, figure{
-  margin: 0px;
-}
-
 /* Sidebar */
 .sidebar{
   background-color: white;
   width: 243px;
   height: 100vh;
   box-shadow: 1px 0px #6c2c2c;
+  float: left;
 }
 
 #logo{
   display: block;
   width: 80%;
   margin: 0vh auto;
-  /* padding: 8vh 0vw; */
   padding: 8vh 0vw 6vh 0vw;
 }
 
 .location{
   display: block;
-  padding: 0 1.875rem;
+  padding: 0 1.875em;
   margin: 1rem 0rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05em;
   font-size: 14px;
   font-style: italic;
 }
 
 .hours{
-  margin: 2rem 0rem;
+  margin: 2rem 0em;
 }
 
 .location, .hours{
   text-align: center;
-  word-spacing: 0.1rem;
+  word-spacing: 0.1em;
   line-height: 1.5;
   opacity: 75%;
   /* font-weight: bold; */
@@ -53,8 +49,16 @@ body, figure{
 .hours p{
   border: 1px solid #6c2c2c;
   padding: 3px;
-  margin: 3rem 5rem 0.5rem;
+  margin: 3em 5em 0.5em;
   background-color:rgba(151,115,65,0.65);
   color: wheat;
   border-radius: 2px;
+}
+
+/* Navbar */
+.navbar{
+  width: 80%;
+  height: 100px;
+  background-color: gray;
+  float: left;
 }
